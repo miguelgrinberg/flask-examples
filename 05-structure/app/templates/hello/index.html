@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Flask Example</title>
+  </head>
+  <body>
+    <form method="POST" action="">
+      What is your name? <input type="text" name="name">
+      <input type="submit" name="submit" value="Submit">
+    </form>
+    {% if name %}
+      <h1>Hello, {{name}}!</h1>
+      {% if new %}
+        <p>Nice to meet you!</p>
+      {% else %}
+        <p>Great to see you again!</p>
+      {% endif %}
+    {% endif %}
+  </body>
+</html>
