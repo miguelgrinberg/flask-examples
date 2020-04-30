@@ -12,3 +12,6 @@ To run this example follow these steps:
 - To start the application run the following command:
 
         (venv) $ python hello.py
+
+- Works fine with both Windows and Linux OS.
+
